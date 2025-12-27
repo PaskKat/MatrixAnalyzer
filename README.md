@@ -5,6 +5,16 @@
 ## Purpose: 
 Independently recreate common linear algebra tools in python to understand how scipy.linalg works. This repo uses no imported libraries (as a challenge) to understand how scipy operates. Only python's most basic functions are used.
 
+## Running Matrix Analyzer (Command Line):
+1. Paste into the command line: git clone https://github.com/PaskKat/MatrixAnalyzer 
+2. Enter into the MatrixAnalyzer folder by entering in the command line: cd MatrixAnalyzer/
+3. Run the analysis in the command line with: python3 PublicMatrixAnalyzer.py
+4. Enter the dimensions of the prospective matrix as <Number of Rows>x<Number of Columns> 
+   - (Ex. 3x2)
+5. Enter the elements of each row as <element> <element> <element> and return to start another row. Repeat as needed.
+   - (Ex. -1 2.00 3.5) for a 3-term row.
+
+
 ## Functions: PublicBackgroundFunctions.py 
 
 Note: All matricies are stored as 2D arrays (python lists).
